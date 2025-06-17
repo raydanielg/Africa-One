@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 220 20% 98%; /* Light gray */
+    --foreground: 220 10% 30%; /* Dark gray */
+
+    --card: 220 20% 98%; /* Light gray */
+    --card-foreground: 220 10% 30%; /* Dark gray */
+
+    --popover: 220 20% 98%; /* Light gray */
+    --popover-foreground: 220 10% 30%; /* Dark gray */
+
+    --primary: 200 80% 50%; /* Teal */
+    --primary-foreground: 0 0% 100%; /* White */
+
+    --secondary: 220 20% 90%; /* Slightly darker gray */
+    --secondary-foreground: 220 10% 30%; /* Dark gray */
+
+    --muted: 220 20% 90%; /* Slightly darker gray */
+    --muted-foreground: 220 10% 50%; /* Medium gray */
+
+    --accent: 200 80% 50%; /* Teal */
+    --accent-foreground: 0 0% 100%; /* White */
+
+    --destructive: 0 60% 50%; /* Red */
+    --destructive-foreground: 0 0% 100%; /* White */
+
+    --border: 220 20% 80%; /* Gray */
+    --input: 220 20% 80%; /* Gray */
+    --ring: 200 80% 50%; /* Teal */
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 220 20% 98%;
+
+    --sidebar-foreground: 220 10% 30%;
+
+    --sidebar-primary: 200 80% 50%;
+
+    --sidebar-primary-foreground: 0 0% 100%;
+
+    --sidebar-accent: 220 20% 90%;
+
+    --sidebar-accent-foreground: 220 10% 30%;
+
+    --sidebar-border: 220 20% 80%;
+
+    --sidebar-ring: 200 80% 50%;
+  }
+
+  .dark {
+    --background: 220 10% 30%; /* Dark gray */
+    --foreground: 220 20% 98%; /* Light gray */
+
+    --card: 220 10% 30%; /* Dark gray */
+    --card-foreground: 220 20% 98%; /* Light gray */
+
+    --popover: 220 10% 30%; /* Dark gray */
+    --popover-foreground: 220 20% 98%; /* Light gray */
+
+    --primary: 200 80% 50%; /* Teal */
+    --primary-foreground: 0 0% 100%; /* White */
+
+    --secondary: 220 20% 15%; /* Even darker gray */
+    --secondary-foreground: 220 20% 98%; /* Light gray */
+
+    --muted: 220 20% 15%; /* Even darker gray */
+    --muted-foreground: 220 20% 50%; /* Medium gray */
+
+    --accent: 200 80% 50%; /* Teal */
+    --accent-foreground: 0 0% 100%; /* White */
+
+    --destructive: 0 70% 40%; /* Darker red */
+    --destructive-foreground: 0 0% 100%; /* White */
+
+    --border: 220 20% 15%; /* Even darker gray */
+    --input: 220 20% 15%; /* Even darker gray */
+    --ring: 200 80% 50%; /* Teal */
+    --sidebar-background: 220 10% 30%;
+    --sidebar-foreground: 220 20% 90%;
+    --sidebar-primary: 200 80% 50%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 220 20% 15%;
+    --sidebar-accent-foreground: 220 20% 90%;
+    --sidebar-border: 220 20% 15%;
+    --sidebar-ring: 200 80% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
