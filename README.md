@@ -37,6 +37,10 @@ Africa One Radio Hub is a platform that allows users to listen to a variety of A
 
 Contributions are welcome! Please fork the repository and submit a pull request.
 
+[![Fork](https://img.shields.io/github/forks/raydanielg/Africa-One?style=social)](https://github.com/raydanielg/Africa-One/fork)
+[![Star](https://img.shields.io/github/stars/raydanielg/Africa-One?style=social)](https://github.com/raydanielg/Africa-One/stargazers)
+[![Collaborate](https://img.shields.io/badge/Collaborate-Request-blue)](https://github.com/raydanielg/Africa-One/issues/new?assignees=&labels=collaboration&template=collaboration-request.md&title=Collaboration%20Request)
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
